@@ -1,0 +1,12 @@
+.nav {
+  background-color: transparent;
+}
+
+.nav .text {
+  color: red;
+}
+
+.nav a.active {
+  color: red;
+}
+/*# sourceMappingURL=Style.css.map */

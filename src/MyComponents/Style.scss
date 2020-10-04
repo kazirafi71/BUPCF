@@ -1,0 +1,33 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@400;600;700&family=Quicksand:wght@400;600;700&family=Roboto:wght@400;700;900&display=swap');
+
+// NAVBAR
+
+.nav{
+    font-family: Poppins;
+    font-weight: 600;
+    text-transform: uppercase;
+    
+    
+    .text{
+        color: white;
+    }
+
+    .active{
+        border-bottom: #EC7063  2px solid;
+        color: #EC7063 !important;
+    }
+    .w{
+        width: 50px;
+    }
+}
+
+
+@media(max-width: 600px){
+    .nav{
+        .active{
+            border-bottom: none;
+            color: red !important;
+        }
+    }
+}
