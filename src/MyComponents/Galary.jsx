@@ -7,8 +7,11 @@ const Galary = ({image}) => {
         <div>
             
             <div>
+                <a href={image}>
+                <img className='img-fluid' height='400px'  src={image} alt=""/>
+                </a>
             
-            <img className='img-fluid' height='400px'  src={image} alt=""/>
+            
             </div>
         </div>
     );
