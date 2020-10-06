@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3531f557a32582b771ca18ac264ebf6c",
+    "revision": "cb8d968437e41892ca1966fc572ba1e6",
     "url": "/zzz/index.html"
   },
   {
-    "revision": "f99d62f2763be5cf5737",
-    "url": "/zzz/static/css/2.ea6b7726.chunk.css"
+    "revision": "5bb72bb026e1d54801a2",
+    "url": "/zzz/static/css/2.df750b2b.chunk.css"
   },
   {
-    "revision": "d2c20627e08c2b8f64d8",
-    "url": "/zzz/static/css/main.8e1acd9c.chunk.css"
+    "revision": "3c46cd2a10eb11fe1a38",
+    "url": "/zzz/static/css/main.af234904.chunk.css"
   },
   {
-    "revision": "f99d62f2763be5cf5737",
-    "url": "/zzz/static/js/2.81b978ad.chunk.js"
+    "revision": "5bb72bb026e1d54801a2",
+    "url": "/zzz/static/js/2.8fb09455.chunk.js"
   },
   {
     "revision": "4e5653c2aea1f8f01a4afdf4252ee778",
-    "url": "/zzz/static/js/2.81b978ad.chunk.js.LICENSE.txt"
+    "url": "/zzz/static/js/2.8fb09455.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d2c20627e08c2b8f64d8",
-    "url": "/zzz/static/js/main.f0becf36.chunk.js"
+    "revision": "3c46cd2a10eb11fe1a38",
+    "url": "/zzz/static/js/main.d4956e42.chunk.js"
   },
   {
     "revision": "4dbc3be67670549f58a8",
@@ -46,6 +46,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "cc5320b847be1e402a79cb0e7def8523",
     "url": "/zzz/static/media/13.cc5320b8.jpg"
+  },
+  {
+    "revision": "c190ff802c276b4b67f1c1ae9249714b",
+    "url": "/zzz/static/media/17620458_1271671009535410_3070043632222437216_o.c190ff80.jpg"
   },
   {
     "revision": "0950708d1986010579931463f1d35d49",
@@ -102,6 +106,26 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7657f76e1b5a86fac1c107632f1e66a2",
     "url": "/zzz/static/media/8.7657f76e.jpg"
+  },
+  {
+    "revision": "7c034f5b2c8bfa7cb09c503cddeff649",
+    "url": "/zzz/static/media/bs.7c034f5b.jpg"
+  },
+  {
+    "revision": "6f4d048986548ada19077e8d7efee0b2",
+    "url": "/zzz/static/media/bup.6f4d0489.png"
+  },
+  {
+    "revision": "d8014a26884cf1d744d8a95172529bcc",
+    "url": "/zzz/static/media/cfest.d8014a26.jpg"
+  },
+  {
+    "revision": "a9fdf33e61d17238356eebc70bfd6b30",
+    "url": "/zzz/static/media/chief.a9fdf33e.jpg"
+  },
+  {
+    "revision": "574d2f3b8b6ff481884f012d8065d5f3",
+    "url": "/zzz/static/media/close.574d2f3b.jpg"
   },
   {
     "revision": "04566863f902b4881d48e1612dca0e01",
@@ -392,7 +416,27 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/zzz/static/media/img9.93a3c92d.jpg"
   },
   {
+    "revision": "501f12288d1207c348d54bf49f0047ad",
+    "url": "/zzz/static/media/lit.501f1228.jpg"
+  },
+  {
+    "revision": "3f24c7807a2fe10083b8d5ac4859f172",
+    "url": "/zzz/static/media/mujib_logo.3f24c780.png"
+  },
+  {
+    "revision": "ee830d89892c16751d010c215800cbc9",
+    "url": "/zzz/static/media/old.ee830d89.png"
+  },
+  {
+    "revision": "c926012502e164967707c0348fad8660",
+    "url": "/zzz/static/media/sfuron.c9260125.jpg"
+  },
+  {
     "revision": "6fd0654858b0386991803ffec91fa218",
     "url": "/zzz/static/media/welcome.6fd06548.png"
+  },
+  {
+    "revision": "aff9e9008b56dcf5c4e52381203a2dfa",
+    "url": "/zzz/static/media/yolo.aff9e900.jpg"
   }
 ]);
