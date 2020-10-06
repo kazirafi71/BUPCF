@@ -14,13 +14,22 @@
     }
 
     .active{
-        border-bottom: #EC7063  2px solid;
-        color: #EC7063 !important;
+        border-bottom: #2AB4AC   2px solid;
+        color: #FFC300  !important;
     }
     .w{
         width: 50px;
     }
 }
+
+.eventCard{
+    h3:hover{
+        text-decoration: underline;
+
+    }
+}
+
+
 
 
 @media(max-width: 600px){

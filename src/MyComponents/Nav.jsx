@@ -11,7 +11,7 @@ const Nav = () => {
         //         <div className="row">
         //             <div >
                       
-                    <nav className="nav bg-primary bg-dark sticky-top navbar navbar-expand-lg navbar-light ">
+                    <nav className="nav bg-primary bg-light sticky-top navbar navbar-expand-lg navbar-light ">
                       <div className="container">
   <NavLink class="navbar-brand" to="/"><img src={c} alt="" srcset="" height='45px' className='rounded-circle'/></NavLink>
   <button className="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,19 +22,19 @@ const Nav = () => {
     
     <ul className="navbar-nav ml-auto ">
       <li className="nav-item ">
-        <NavLink exact activeClassName='active' className="nav-link text-light " to="/">Home </NavLink>
+        <NavLink exact activeClassName='active' className="nav-link  " to="/">Home </NavLink>
       </li>
       <li className="nav-item ">
-        <NavLink activeClassName='active' className="nav-link text-light" to="/about">About Us </NavLink>
+        <NavLink activeClassName='active' className="nav-link " to="/about">About Us </NavLink>
       </li>
       <li className="nav-item ">
-        <NavLink className="nav-link text-light" to="/contact">Contact Us</NavLink>
+        <NavLink className="nav-link " to="/contact">Contact Us</NavLink>
       </li>
       <li className="nav-item dropdown">
-        <a style={{cursor:"pointer"}} className="text nav-link dropdown-toggle text-light" to="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a style={{cursor:"pointer"}} className="text nav-link dropdown-toggle " to="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Member
         </a>
-        <div className="dropdown-menu bg-danger" aria-labelledby="navbarDropdownMenuLink">
+        <div className="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
           <NavLink  className="dropdown-item " to="/advisory">Advisory Members</NavLink>
           <NavLink activeClassName='active' className="dropdown-item" to="/alumni">Alumni </NavLink>
           <NavLink activeClassName='active' className="dropdown-item" to="/executive">Executive Members</NavLink>
@@ -43,10 +43,10 @@ const Nav = () => {
         </div>
       </li>
       <li className="nav-item dropdown">
-        <a className="text-light  nav-link dropdown-toggle" to="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style={{cursor:"pointer"}}>
+        <a className="  nav-link dropdown-toggle" to="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style={{cursor:"pointer"}}>
           Announcements
         </a>
-        <div className="bg-warning dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+        <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
           
           <NavLink className="dropdown-item" to="/notices">Notices</NavLink>
           

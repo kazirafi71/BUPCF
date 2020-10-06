@@ -1,76 +1,107 @@
+import img1 from './imgEvent/mujib_logo.png';
+import lit from './imgEvent/lit.jpg'
+import close from './imgEvent/close.jpg'
+import sfuron from './imgEvent/sfuron.jpg'
+import yolo from './imgEvent/yolo.jpg'
+import cfest from './imgEvent/cfest.jpg'
+import bs from './imgEvent/bs.jpg'
+import old from './imgEvent/old.png'
+import chief from './imgEvent/chief.jpg'
+import bup from './imgEvent/bup.png'
+import img10 from './imgEvent/17620458_1271671009535410_3070043632222437216_o.jpg'
+
+
 const eventData=
     [
         {
-            img:'https://picsum.photos/200/300/?blur',
+            img:img1,
             "userId": 1,
             "id": 1,
-            "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
-            "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+            "title": "Department of Printing and Publications Events - Bangladesh Government Press",
+            "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+            time:"17March 2020"
           },
           {
-
-            img:'https://picsum.photos/200/300',
+            img:lit,
             "userId": 1,
-            "id": 2,
-            "title": "qui est esse",
-            "body": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla"
+            "id": 1,
+            "title": "Lit Fest",
+            "body": "BUP Literature Club is back with one of the most anticipated events of the year, 'BUP Lit Fest'18'. On this occasion, BUP Cultural Forum cordially invites you all to experience a tale of metropolis organized by BUPLC on 12th and 13th October.",
+            time:"2 October 2020"
           },
           {
-              img:'https://picsum.photos/200/300?grayscale',
+            img:close,
             "userId": 1,
-            "id": 3,
-            "title": "ea molestias quasi exercitationem repellat qui ipsa sit aut",
-            "body": "et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut"
+            "id": 1,
+            "title": "Department of Printing and Publications Events - Bangladesh Government Press",
+            "body": "A mere 'thank you' will not suffice to address the contribution of those who worked day and night to launch this event and those who came and supported it.A hearty thanks to BUP Business & Communication Club and BUP Literature Club for aiding to make the event successful.Finally, BUP Photography Society, working with you guys was beyond wondrous.Here's to the brotherhood! Hope the unity stays strong for years to come.",
+            time:"25May 2020"
           },
           {
-              img:'https://picsum.photos/200/300',
+            img:sfuron,
             "userId": 1,
-            "id": 4,
-            "title": "eum et est occaecati",
-            "body": "ullam et saepe reiciendis voluptatem adipisci\nsit amet autem assumenda provident rerum culpa\nquis hic commodi nesciunt rem tenetur doloremque ipsam iure\nquis sunt voluptatem rerum illo velit"
+            "id": 1,
+            "title": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+            "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+            time:"25May 2020"
           },
           {
-              img:'https://picsum.photos/200/300',
+            img:yolo,
             "userId": 1,
-            "id": 5,
-            "title": "nesciunt quas odio",
-            "body": "repudiandae veniam quaerat sunt sed\nalias aut fugiat sit autem sed est\nvoluptatem omnis possimus esse voluptatibus quis\nest aut tenetur dolor neque"
+            "id": 1,
+            "title": "YOLO is the digital platform of Airtel and it spreads its digital products and information among the students to help enriching the online culture.",
+            "body": "Airtel YOLO will organize a day long activity at our BUP campus tomorrow (Thursday, 9th March). There will be a blend of product communication and small game. To be specific there will be communication booths (YOLO Gaming, YOLO Video, YOLO Music, YOLO Campus) and mini engagement booths right beside them. Small gift items will be…",
+            time:"25May 2020"
           },
           {
-              img:'https://picsum.photos/200/300',
+            img:cfest,
             "userId": 1,
-            "id": 6,
-            "title": "dolorem eum magni eos aperiam quia",
-            "body": "ut aspernatur corporis harum nihil quis provident sequi\nmollitia nobis aliquid molestiae\nperspiciatis et ea nemo ab reprehenderit accusantium quas\nvoluptate dolores velit et doloremque molestiae"
+            "id": 1,
+            "title": "Some exciting announcements coming your way.Stay tuned!",
+            "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+            time:"25May 2020"
           },
           {
-              img:'https://picsum.photos/100/300',
+            img:bs,
             "userId": 1,
-            "id": 7,
-            "title": "magnam facilis autem",
-            "body": "dolore placeat quibusdam ea quo vitae\nmagni quis enim qui quis quo nemo aut saepe\nquidem repellat excepturi ut quia\nsunt ut sequi eos ea sed quas"
+            "id": 1,
+            "title": "প্রানের উৎসবে বিইউপি মাতাতে আসছে 'AVOIDRAFA.'",
+            "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+            time:"25May 2020"
           },
           {
-              img:'https://picsum.photos/100/300',
+            img:old,
             "userId": 1,
-            "id": 8,
-            "title": "dolorem dolore est ipsam",
-            "body": "dignissimos aperiam dolorem qui eum\nfacilis quibusdam animi sint suscipit qui sint possimus cum\nquaerat magni maiores excepturi\nipsam ut commodi dolor voluptatum modi aut vitae"
+            "id": 1,
+            "title": "Department of Printing and Publications Events - Bangladesh Government Press",
+            "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+            time:"25May 2020"
           },
           {
-              img:'https://picsum.photos/seed/picsum/100/300',
+            img:chief,
             "userId": 1,
-            "id": 9,
-            "title": "nesciunt iure omnis dolorem tempora et accusantium",
-            "body": "consectetur animi nesciunt iure dolore\nenim quia ad\nveniam autem ut quam aut nobis\net est aut quod aut provident voluptas autem voluptas"
+            "id": 1,
+            "title": "Introducing the chief judge and headliner of the event!",
+            "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+            time:"25May 2020"
           },
           {
-              img:'https://picsum.photos/200/300',
+            img:bup,
             "userId": 1,
-            "id": 10,
-            "title": "optio molestias id quia eum",
-            "body": "quo et expedita modi cum officia vel magni\ndoloribus qui repudiandae\nvero nisi sit\nquos veniam quod sed accusamus veritatis error"
+            "id": 1,
+            "title": "BUP DAY",
+            "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+            time:"25May 2020"
+          },
+          {
+            img:img10,
+            "userId": 1,
+            "id": 1,
+            "title": "Department of Printing and Publications Events - Bangladesh Government Press",
+            "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+            time:"25May 2020"
           }
+          
     ]
 
     export {eventData}

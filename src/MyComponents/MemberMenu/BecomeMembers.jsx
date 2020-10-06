@@ -1,12 +1,18 @@
 import React from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css'
+import { useEffect } from 'react';
 
 const BecomeMembers = () => {
+  useEffect(()=>{
+    Aos.init({duration:3000})
+},[])
     return (
         <div>
             <section className='bg-dark' id="be-member">
             <div className="container ">
                 <div className="row text-center py-5 text-light">
-                    <div className="col text-center py-5">
+                    <div data-aos="fade-up" className="col text-center py-5">
                         <h1>Be a Member</h1>
                         <p>Be a part of BUP CF Family</p>
                     </div>
@@ -14,7 +20,7 @@ const BecomeMembers = () => {
             </div>
             </section>
 
-            <section id="form">
+            <section data-aos="zoom-in-up" id="form">
                 <div className="container border border-2 my-5">
 
                 
