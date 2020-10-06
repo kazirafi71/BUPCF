@@ -1,8 +1,24 @@
 import React from 'react';
 import Card from './Card';
-import Cdata from './Data';
+import {exData} from '../MemberMenu/ExData';
+import { useState } from 'react';
+import Button from './Button'
+
 
 const Executive = () => {
+    const [posts,setPosts]=useState(exData);
+    const[showPerpage,setShowPerpage]=useState(10)
+
+    const [pagination,setPagination]=useState({
+        start:0,
+        end:showPerpage,
+    })
+    console.log(posts)
+
+    const onPaginationChange=(start,end)=>{
+        setPagination({start:start,end:end})
+    }
+    
     return (
         <div>
             <section className="bg-dark py-5">
@@ -22,12 +38,13 @@ const Executive = () => {
                 <div className="row py-5 my-5 g-5">
                     <h1 className='text-center mb-4'>Current Executives 2020</h1>
                     
-                    {Cdata.map((val)=>{
+                    {posts.slice(pagination.start,pagination.end).map((val)=>{
                         return(<div className="col-md-6">
                         <Card
-                        img={val.img1}
-                        title={val.title}
-                        des={val.des}
+
+                        img={val.img}
+                        title={val.name}
+                        des={val.title}
                         linkfb={val.linkfb}
                         linkdin={val.linkdin}
                         insta={val.insta}
@@ -37,6 +54,10 @@ const Executive = () => {
                     })}
                     
                 </div>
+                <Button showPerPage={showPerpage}
+                onPaginationChange={onPaginationChange}
+                total={posts.length}
+                />
             </div>
         </section>
         </div>

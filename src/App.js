@@ -13,7 +13,7 @@ import Advisory from './MyComponents/MemberMenu/Advisory'
 import Alumni  from './MyComponents/MemberMenu/Alumni.jsx'
 import Executive from './MyComponents/MemberMenu/Executive.jsx'
 import GeneralMember from './MyComponents/MemberMenu/GeneralMember.jsx'
-import Event from './MyComponents/AnnounceMents/Event'
+import Events from './MyComponents/AnnounceMents/Events'
 import Notices from './MyComponents/AnnounceMents/Notices'
 import News from './MyComponents/AnnounceMents/News'
 import Nav from './MyComponents/Nav'
@@ -31,9 +31,9 @@ function App() {
         <Route exact path='/contact' component={Contact}></Route>
         <Route exact path='/member' component={Member}></Route>
         <Route exact path='/announceMent' component={AnnounceMent}></Route>
-        <Route exact path='/event' component={Event}></Route>
+        <Route exact path='/events' component={Events}></Route>
         <Route exact path='/notices' component={Notices}></Route>
-        {/* <Route exact path='/news' component={News}></Route> */}
+        <Route exact path='/news' component={News}></Route>
         <Route exact path='/generalMember' component={GeneralMember}></Route>
         <Route exact path='/executive' component={Executive}></Route>
         <Route exact path='/alumni' component={Alumni}></Route>

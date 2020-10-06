@@ -169,5 +169,10 @@ const imgGlary=[
     }
     
 ]
+
+
+
+
+   
 export default Cdata;
 export {AdvisoryData,imgGlary};

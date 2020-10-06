@@ -47,9 +47,10 @@ const Nav = () => {
           Announcements
         </a>
         <div className="bg-warning dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <NavLink className="dropdown-item " to="/event">Events</NavLink>
+          
           <NavLink className="dropdown-item" to="/notices">Notices</NavLink>
-          {/* <NavLink  className="dropdown-item " to="/news">News</NavLink> */}
+          
+          <NavLink  className="dropdown-item " to="/events">Events</NavLink>
           
         </div>
       </li>
