@@ -18,6 +18,7 @@ const Button = ({showPerPage,onPaginationChange,total}) => {
 
             if(count===1){
                 setCount(1)
+                alert('This is your current page')
             }
             else{
                 setCount(count-1)
@@ -26,6 +27,7 @@ const Button = ({showPerPage,onPaginationChange,total}) => {
         else if(type==='next'){
             if(Math.ceil(total/showPerPage)===count){
                 setCount(count)
+                alert('This is your last page')
             }
             else{
                 setCount(count+1)
@@ -34,7 +36,7 @@ const Button = ({showPerPage,onPaginationChange,total}) => {
     }
     return (
         <div className='d-flex justify-content-between pb-5'>
-            <button onClick={()=>onButtonClick('prev')} className='btn btn-outline-primary'>Previous</button>
+            <button  onClick={()=>onButtonClick('prev')} className='btn btn-outline-primary'>Previous</button>
             <button onClick={()=>onButtonClick('next')} className='btn btn-outline-primary'>Next</button>
         </div>
     );

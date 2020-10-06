@@ -17,13 +17,13 @@ const Card = ({img,linkdin,linkfb,des,title,insta}) => {
     <h3 style={{fontFamily:"Quicksand",fontWeight:"600"}} class="card-title">{title}</h3>
     <p style={{color:'#18B3CF ',fontFamily:"poppins"}} class="card-text">{des}</p>
     <div className="mt-5">
-    <a  className='p-2' style={{color:'black'}} href={linkfb}>
+    <a  className='p-2' style={{color:'black'}} href='#'>
     <FacebookIcon/>
     </a>
-    <a className='p-2' href={linkdin}>
+    <a className='p-2' href='#'>
     <LinkedInIcon/>
     </a>
-    <a style={{color:'#EC7063'}} className='p-2' href={insta}>
+    <a style={{color:'#EC7063'}} className='p-2' href='#'>
     <InstagramIcon/>
     </a>
     </div>
