@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f501753580abf8c640c0333dfaf817c3",
+    "revision": "1d8e97b4ab37e01f345f0fe34f312a96",
     "url": "/zzz/index.html"
   },
   {
-    "revision": "e89972d9f55d491200e4",
+    "revision": "848b50aa95a43969befd",
     "url": "/zzz/static/css/2.df750b2b.chunk.css"
   },
   {
-    "revision": "9268b67d6c69e1553be5",
+    "revision": "6f18b84cde3d33f2a5f4",
     "url": "/zzz/static/css/main.bf1b1e50.chunk.css"
   },
   {
-    "revision": "e89972d9f55d491200e4",
-    "url": "/zzz/static/js/2.8821c784.chunk.js"
+    "revision": "848b50aa95a43969befd",
+    "url": "/zzz/static/js/2.7176e6e8.chunk.js"
   },
   {
     "revision": "4e5653c2aea1f8f01a4afdf4252ee778",
-    "url": "/zzz/static/js/2.8821c784.chunk.js.LICENSE.txt"
+    "url": "/zzz/static/js/2.7176e6e8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9268b67d6c69e1553be5",
-    "url": "/zzz/static/js/main.d0ccefdd.chunk.js"
+    "revision": "6f18b84cde3d33f2a5f4",
+    "url": "/zzz/static/js/main.82812ce9.chunk.js"
   },
   {
     "revision": "4dbc3be67670549f58a8",
