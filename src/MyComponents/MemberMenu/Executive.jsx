@@ -3,8 +3,8 @@ import Card from './Card';
 import {exData} from '../MemberMenu/ExData';
 import { useState } from 'react';
 import Button from './Button'
-import Aos from 'aos';
-import 'aos/dist/aos.css';
+// import Aos from 'aos';
+// import 'aos/dist/aos.css';
 
 
 const Executive = () => {
@@ -21,9 +21,9 @@ const Executive = () => {
         setPagination({start:start,end:end})
     }
 
-    useEffect(()=>{
-        Aos.init({duration:2000})
-    },[])
+    // useEffect(()=>{
+    //     Aos.init({duration:2000})
+    // },[])
     
     return (
         <div>
@@ -45,7 +45,7 @@ const Executive = () => {
                     <h1 className='text-center mb-4'>Current Executives 2020</h1>
                     
                     {posts.slice(pagination.start,pagination.end).map((val)=>{
-                        return(<div data-aos='fade-up' className="col-md-6">
+                        return(<div className="col-md-6">
                         <Card
 
                         img={val.img}
