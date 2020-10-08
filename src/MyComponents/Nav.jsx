@@ -27,11 +27,9 @@ const Nav = () => {
       <li className="nav-item ">
         <NavLink activeClassName='active' className="nav-link " to="/about">About Us </NavLink>
       </li>
-      <li className="nav-item ">
-        <NavLink className="nav-link " to="/contact">Contact Us</NavLink>
-      </li>
+      
       <li className="nav-item dropdown">
-        <a style={{cursor:"pointer"}} className="text nav-link dropdown-toggle " to="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a  style={{cursor:"pointer"}} className="text nav-link dropdown-toggle " to="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Member
         </a>
         <div className="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
@@ -53,6 +51,9 @@ const Nav = () => {
           <NavLink  className="dropdown-item " to="/events">Events</NavLink>
           
         </div>
+      </li>
+      <li className="nav-item ">
+        <NavLink className="nav-link " to="/contact">Contact Us</NavLink>
       </li>
       
     </ul>

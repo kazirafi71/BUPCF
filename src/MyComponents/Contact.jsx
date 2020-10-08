@@ -6,8 +6,11 @@ import CallIcon from '@material-ui/icons/Call';
 import PlaceIcon from '@material-ui/icons/Place';
 import Aos from 'aos';
 import 'aos/dist/aos.css'
+import SocialCommon from './SocialCommon'
+import {socialData} from './SocialData'
 
 const Contact = () => {
+    console.log(socialData)
     useEffect(()=>{
         Aos.init({duration:3000})
     },[])
@@ -60,6 +63,17 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
+            <section id="socail" style={{backgroundColor:'black'}}>
+
+            
+            <div className="container pb-5">
+                <div className="row  xyz">
+                    <h1 className='text-center my-5 text-warning'>Contact With Us</h1>
+                    <SocialCommon fontSize='20px'/>
+                </div>
+            </div>
+            </section>
+            
             
         </div>
     );

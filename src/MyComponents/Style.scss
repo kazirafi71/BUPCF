@@ -29,6 +29,19 @@
     }
 }
 
+#social{
+    i{
+        color:black !important;
+    }
+    .hover :hover{
+        color: white !important;
+        transition: transform 2s;
+        transform: rotate(360deg);
+        
+
+    }
+}
+
 
 
 

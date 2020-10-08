@@ -17,6 +17,7 @@ const EventPagination = ({showPerPage,onPagination,post}) => {
             if(count==1)
             {
                 setCount(1)
+                alert('This is your current page')
             }
             else{
                 setCount(count-1)
@@ -27,6 +28,7 @@ const EventPagination = ({showPerPage,onPagination,post}) => {
         if(Math.ceil(post/showPerPage)===count)
         {
             setCount(count)
+            alert('This is your last page')
         }else
         {
             setCount(count+1)

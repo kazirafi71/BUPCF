@@ -9,13 +9,13 @@ import 'aos/dist/aos.css';
 
 const Executive = () => {
     const [posts,setPosts]=useState(exData);
-    const[showPerpage,setShowPerpage]=useState(10)
+    const[showPerpage,setShowPerpage]=useState(13)
 
     const [pagination,setPagination]=useState({
         start:0,
         end:showPerpage,
     })
-    console.log(posts)
+    console.log(0,15)
 
     const onPaginationChange=(start,end)=>{
         setPagination({start:start,end:end})
